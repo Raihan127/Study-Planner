@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+  }
+  
+  /* Header স্টাইল */
+  header {
+    background-color: #00796b; /* সুন্দর গা dark সবুজ */
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* হালকা শ্যাডো */
+    border-radius: 6px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  .logo h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+  }
+  .logo h1:hover {
+    transform: scale(1.1);
+    color: #80cbc4;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+  }
+  
+  .navbar li {
+    margin: 0;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #004d40; /* হোভার ইফেক্ট */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar ul {
+      gap: 15px;
+    }
+    .logo h1 {
+      font-size: 24px;
+    }
+  }
+  
+  /* Countdown Timer */
+  .countdown-timer {
+    background: linear-gradient(135deg, #9b59b6, #4169E1); /* গ্র্যাডিয়েন্ট ব্যাকগ্রাউন্ড */
+    color: white;
+    font-size: 22px; /* বড় ফন্ট সাইজ */
+    font-weight: 700;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px; /* গোলাকার কোণ */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* গভীরতার জন্য ছায়া */
+    display: flex;
+    justify-content: center; /* অনুভূমিকভাবে সেন্টার */
+    align-items: center; /* উল্লম্বভাবে সেন্টার */
+    text-align: center;
+    width: 80%; /* ৮০% প্রস্থ */
+    max-width: 900px;
+    margin-left: auto; /* বাম দিকে সেন্টার */
+    margin-right: auto; /* ডান দিকে সেন্টার */
+    animation: pulseAnimation 3s infinite ease-in-out; /* পুলস অ্যানিমেশন */
+  }
+  
+  /* Pulse Animation */
+  @keyframes pulseAnimation {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .countdown-timer {
+      font-size: 18px; /* ছোট স্ক্রীনে ফন্ট সাইজ ছোট করা */
+      padding: 15px;
+      margin-top: 15px;
+      width: 90%; /* ছোট স্ক্রীনে একটু বড় হয়ে যায় */
+    }
+  }
+  
+  
+  
+  
+  
+  .study-card {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .study-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .study-header h2 {
+    font-size: 22px;
+    color: #00796b;
+     text-align: center;
+  }
+  
+  .target-time {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .input-time {
+    padding: 10px;
+    font-size: 16px;
+    width: 85%;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .status-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .complete {
+    color: #388e3c;
+  }
+  
+  .incomplete {
+    color: #d32f2f;
+  }
+  
