@@ -2,31 +2,36 @@ const studyList = document.getElementById('study-list');
 
 // 25 
 const studyDays = [
-  { day: 1, topic: 'Polymorphism, Sum', targetTime: 120 },
-  { day: 2, topic: 'Exception Handling, Lecture 11, Product', targetTime: 300 },
-  { day: 3, topic: 'Permutation & Combination, Relation, Chemistry Viva', targetTime: 180 },
-  { day: 4, topic: 'Electro Chemistry, JFET', targetTime: 150 },
-  { day: 5, topic: 'EEE Lab Video, JFET', targetTime: 180 },
-  { day: 6, topic: 'JFET', targetTime: 200 },
-  { day: 7, topic: 'Vector, Graph', targetTime: 210 },
-  { day: 8, topic: 'Inheritance', targetTime: 240 },
-  { day: 9, topic: 'Operator Overloading', targetTime: 300 },
-  { day: 10, topic: 'Geometry', targetTime: 110 },
-  { day: 11, topic: 'Circle', targetTime: 120 },
-  { day: 12, topic: 'Reaction kinetics', targetTime: 80 },
-  { day: 13, topic: 'Vector Calculus', targetTime: 90 },
-  { day: 14, topic: 'Scalar and Vector', targetTime: 100 },
-  { day: 15, topic: 'Phase rule & Phase diagram', targetTime: 85 },
-  { day: 16, topic: 'Graphs', targetTime: 120 },
-  { day: 17, topic: 'Path & Connectivity', targetTime: 100 },
-  { day: 18, topic: 'Euler Path', targetTime: 90 },
-  { day: 19, topic: 'Circuit Hamilton Path', targetTime: 95 },
-  { day: 20, topic: 'BJT', targetTime: 80 },
-  { day: 21, topic: 'Bipoar Junction Transistor', targetTime: 110 },
-  { day: 22, topic: 'Field Effect Transistor', targetTime: 120 },
-  { day: 23, topic: 'Bipoar Junction Transistor', targetTime: 85 },
-  { day: 24, topic: 'Vector', targetTime: 100 },
-  { day: 25, topic: 'Circle', targetTime: 75 }
+  { day: 1, topic: 'Polymorphism, Inheritance, Operator Overloading', targetTime: 150 },
+  { day: 1, topic: 'Exception Handling, Static Data', targetTime: 120 },
+
+  { day: 1, topic: 'Sum, Product', targetTime: 120 },
+  { day: 1, topic: 'Electro Chemistry, Dot & Cross', targetTime: 150 },
+
+
+  { day: 2, topic: 'BJT', targetTime: 180 },
+  { day: 2, topic: 'Permutation, Graph', targetTime: 120 },
+  { day: 2, topic: 'Phase Rule, Circle', targetTime: 150 },
+
+
+  { day: 3, topic: 'Inheritance', targetTime: 90 },
+  { day: 3, topic: 'FET', targetTime: 150 },
+  { day: 3, topic: 'Reaction Kinetics', targetTime: 120},
+  { day: 3, topic: 'Relation & V. Differentiation', targetTime: 120 },
+
+
+  { day: 4, topic: 'Electro Chemistry, Graphs', targetTime: 150 },
+  { day: 4, topic: 'MOSFET, Static Data', targetTime: 90 },
+  { day: 4, topic: 'Scalar and Vector', targetTime: 60 },
+  { day: 4, topic: 'Operator Overloading, Path', targetTime: 75 },
+  { day: 4, topic: 'Vector Ingetration', targetTime: 45 },
+
+
+  { day: 5, topic: 'OP-AMP, Tree', targetTime: 120 },
+  { day: 5, topic: 'Euler Path, Exception Handling ', targetTime: 90 },
+  { day: 5, topic: 'Reaction Kinetics', targetTime: 90 },
+  { day: 5, topic: 'Polymorphism, Tree', targetTime: 90 },
+  { day: 5, topic: 'Phase rule, 2nd Degree', targetTime: 120 },
 ];
 
 // Countdown Timer
