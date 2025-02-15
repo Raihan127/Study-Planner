@@ -1,41 +1,35 @@
 const studyList = document.getElementById('study-list');
 
-// 25 
 const studyDays = [
-  { day: 1, topic: 'Polymorphism, Inheritance, Operator Overloading', targetTime: 150 },
-  { day: 1, topic: 'Exception Handling, Static Data', targetTime: 120 },
-
-  { day: 1, topic: 'Sum, Product', targetTime: 120 },
-  { day: 1, topic: 'Electro Chemistry, Dot & Cross', targetTime: 150 },
+  { day: 1, topic: '15.02.25   Math-3', targetTime: 120 },
+  { day: 1, topic: 'DSD', targetTime: 60 },
 
 
-  { day: 2, topic: 'BJT', targetTime: 180 },
-  { day: 2, topic: 'Permutation, Graph', targetTime: 120 },
-  { day: 2, topic: 'Phase Rule, Circle', targetTime: 150 },
+  { day: 1, topic: '16.02.25   Java', targetTime: 120 },
+  { day: 1, topic: 'Math-3', targetTime: 60 },
 
 
-  { day: 3, topic: 'Inheritance', targetTime: 90 },
-  { day: 3, topic: 'FET', targetTime: 150 },
-  { day: 3, topic: 'Reaction Kinetics', targetTime: 120},
-  { day: 3, topic: 'Relation & V. Differentiation', targetTime: 120 },
+  { day: 2, topic: '17.02.25    DS', targetTime: 90 },
+  { day: 2, topic: 'Math-3', targetTime: 60 },
 
 
-  { day: 4, topic: 'Electro Chemistry, Graphs', targetTime: 150 },
-  { day: 4, topic: 'MOSFET, Static Data', targetTime: 90 },
-  { day: 4, topic: 'Scalar and Vector', targetTime: 60 },
-  { day: 4, topic: 'Operator Overloading, Path', targetTime: 75 },
-  { day: 4, topic: 'Vector Ingetration', targetTime: 45 },
+  { day: 3, topic: '18.02.25    DS', targetTime: 90 },
+  { day: 3, topic: 'Bangla', targetTime: 45},
+  { day: 3, topic: 'Math-3', targetTime: 60},
 
 
+  { day: 4, topic: '19.02.25    Java', targetTime: 45 },
+  
+/*
   { day: 5, topic: 'OP-AMP, Tree', targetTime: 120 },
   { day: 5, topic: 'Euler Path, Exception Handling ', targetTime: 90 },
   { day: 5, topic: 'Reaction Kinetics', targetTime: 90 },
   { day: 5, topic: 'Polymorphism, Tree', targetTime: 90 },
-  { day: 5, topic: 'Phase rule, 2nd Degree', targetTime: 120 },
+  { day: 5, topic: 'Phase rule, 2nd Degree', targetTime: 120 }, */
 ];
 
 // Countdown Timer
-const examDate = new Date("2024-12-15T10:00:00");
+const examDate = new Date("2025-03-11T10:00:00");
 const countdownElement = document.getElementById("countdown");
 
 function updateCountdown() {
